@@ -7,10 +7,36 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+       //HomeView()
+        TabView{
+            //Color.white
+            HomeView()
+                .tabItem{
+                    Text("Home")
+                        .foregroundColor(Color.white)
+                }
+
+            ReportView()
+                .tabItem{
+                    Text("Report Cases")
+                        .foregroundColor(Color.white)
+                }
+            MapView()
+                .ignoresSafeArea(edges: .top)
+                .frame(height: 700)
+                .tabItem{
+                    
+                    Text("Map")
+                }
+            
+        }
+        
     }
 }
 

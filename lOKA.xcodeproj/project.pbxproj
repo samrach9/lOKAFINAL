@@ -14,6 +14,12 @@
 		8B0F9F1D27B866AF00B77B80 /* lOKATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F9F1C27B866AF00B77B80 /* lOKATests.swift */; };
 		8B0F9F2727B866AF00B77B80 /* lOKAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F9F2627B866AF00B77B80 /* lOKAUITests.swift */; };
 		8B0F9F2927B866AF00B77B80 /* lOKAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F9F2827B866AF00B77B80 /* lOKAUITestsLaunchTests.swift */; };
+		8B0F9F4227B8784000B77B80 /* H4HLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F9F4127B8784000B77B80 /* H4HLogo.swift */; };
+		8B0F9F4727B8821100B77B80 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F9F4627B8821100B77B80 /* SplashScreen.swift */; };
+		8B0F9F4927B8857900B77B80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F9F4827B8857900B77B80 /* HomeView.swift */; };
+		8B0F9F4D27B88F1700B77B80 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F9F4C27B88F1700B77B80 /* ReportView.swift */; };
+		8BAC23E627B8C8EA00051914 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC23E527B8C8EA00051914 /* MapView.swift */; };
+		8BAC23EC27B8E2B200051914 /* ThankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC23EB27B8E2B200051914 /* ThankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		8B0F9F2227B866AF00B77B80 /* lOKAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lOKAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0F9F2627B866AF00B77B80 /* lOKAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lOKAUITests.swift; sourceTree = "<group>"; };
 		8B0F9F2827B866AF00B77B80 /* lOKAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lOKAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B0F9F4127B8784000B77B80 /* H4HLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4HLogo.swift; sourceTree = "<group>"; };
+		8B0F9F4627B8821100B77B80 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		8B0F9F4827B8857900B77B80 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8B0F9F4C27B88F1700B77B80 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		8BAC23E527B8C8EA00051914 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8BAC23EB27B8E2B200051914 /* ThankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +106,9 @@
 		8B0F9F0A27B866AC00B77B80 /* lOKA */ = {
 			isa = PBXGroup;
 			children = (
+				8B0F9F4527B881E000B77B80 /* View */,
 				8B0F9F0B27B866AC00B77B80 /* lOKAApp.swift */,
+				8B0F9F4127B8784000B77B80 /* H4HLogo.swift */,
 				8B0F9F0D27B866AC00B77B80 /* ContentView.swift */,
 				8B0F9F0F27B866AF00B77B80 /* Assets.xcassets */,
 				8B0F9F1127B866AF00B77B80 /* Preview Content */,
@@ -125,6 +139,18 @@
 				8B0F9F2827B866AF00B77B80 /* lOKAUITestsLaunchTests.swift */,
 			);
 			path = lOKAUITests;
+			sourceTree = "<group>";
+		};
+		8B0F9F4527B881E000B77B80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B0F9F4627B8821100B77B80 /* SplashScreen.swift */,
+				8B0F9F4827B8857900B77B80 /* HomeView.swift */,
+				8BAC23E527B8C8EA00051914 /* MapView.swift */,
+				8B0F9F4C27B88F1700B77B80 /* ReportView.swift */,
+				8BAC23EB27B8E2B200051914 /* ThankView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BAC23E627B8C8EA00051914 /* MapView.swift in Sources */,
+				8B0F9F4727B8821100B77B80 /* SplashScreen.swift in Sources */,
+				8B0F9F4227B8784000B77B80 /* H4HLogo.swift in Sources */,
+				8BAC23EC27B8E2B200051914 /* ThankView.swift in Sources */,
 				8B0F9F0E27B866AC00B77B80 /* ContentView.swift in Sources */,
+				8B0F9F4D27B88F1700B77B80 /* ReportView.swift in Sources */,
+				8B0F9F4927B8857900B77B80 /* HomeView.swift in Sources */,
 				8B0F9F0C27B866AC00B77B80 /* lOKAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

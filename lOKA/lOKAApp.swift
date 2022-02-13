@@ -12,6 +12,7 @@ struct lOKAApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }
